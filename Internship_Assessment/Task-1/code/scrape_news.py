@@ -18,7 +18,7 @@ def scrape_from_google_news():
     news_df = pd.DataFrame(data)
     print("🔍 Scraped Headlines:\n", news_df.head())
 
-    news_df.to_csv("data/news_raw.csv", index=False)
+    news_df.to_csv("code/data/news_raw.csv", index=False)
     print("✅ Saved to data/news_raw.csv")
 
 if __name__ == "__main__":
