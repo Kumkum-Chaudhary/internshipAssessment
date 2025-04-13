@@ -5,7 +5,7 @@ import os
 st.set_page_config(page_title="📰 Tech Deal News Summarizer", layout="wide")
 st.title("🗞️ Tech Deal News Summarizer")
 
-summary_path = "data/news_summary.csv"
+summary_path = "code/data/news_summary.csv"
 
 if not os.path.exists(summary_path):
     st.warning("⚠️ Summary file not found. Please run summarize.py first.")
