@@ -16,7 +16,7 @@ def summarize_news():
     df = pd.read_csv("data/news_raw.csv")
     df = df.dropna(subset=["title"])
     df["summary"] = summarize_texts(df["title"])
-    df.to_csv("data/news_summary.csv", index=False)
+    df.to_csv("code/data/news_summary.csv", index=False)
     print("✅ Summarized and saved to data/news_summary.csv")
 
 if __name__ == "__main__":
