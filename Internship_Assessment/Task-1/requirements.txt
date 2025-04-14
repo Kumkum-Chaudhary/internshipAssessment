@@ -1,0 +1,7 @@
+feedparser
+transformers
+pandas
+streamlit
+torch
+numpy
+sentencepiece
