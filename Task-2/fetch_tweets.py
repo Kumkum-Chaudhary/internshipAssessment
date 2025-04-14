@@ -2,7 +2,7 @@
 import tweepy
 import pandas as pd
 
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAA7v0QEAAAAAre5Yj5RCsgPPXtI9qAXrqIcr3tE%3D8jM8tvKkpQILtFi48fHcX55hq7MQlUWjQ8KES43xwBkxCH7rCa"
+BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAA7v0QEAAAAAkCjPUrMzddHiYVV5A3XclIp5PYQ%3Dmu6XaGwhBpwz43JsiZqQrQjmXQW44DAPraWbNe6XYlTy6G2oGI"
 
 def fetch_tweets(keyword, max_results=20):
     client = tweepy.Client(bearer_token=BEARER_TOKEN)
